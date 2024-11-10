@@ -1,17 +1,226 @@
+
+/* header style */
+.nav-menu{
+    position: fixed;
+    background-color: rgb(235, 151, 67);
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    z-index: 1000;  
+    padding: 0 20px;
+}
+
+
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: black;
+    font-weight: 600;
+    
+}
+
+.nav-menu img{
+    width: 80px;
+    height: 90px;
+}
+/* main styles */
 @font-face{
     font-family: "africa";
     src: url("../fonts/Africa.ttf") format("truetype");
+    
 }
 
 h1{
     font-family: "africa";
-    font-weight: 100;
+    font-weight: 400;
+    padding-left: 10rem;
+    letter-spacing: 50px;
+    padding-top: 5rem;
+    
+    
 }
 
-/* header style */
+.img-main{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main-one{
+    background-color: rgb(235, 151, 67);
+    width: 100%;
+    margin-top: 4rem;
+    
+}
+.video{
+    width: 100%;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 4rem;
+
+}
+
+.main-one h2{
+    font-family: "africa";
+    font-weight: 400;
+    padding-left: 13rem;
+    padding-top: 1.5rem;
+
+}
+
+.main-one p{
+    margin: 0 3rem;
+    padding-bottom: 2rem;
+    line-height: 1.5;
+   
+}
+    
+.h3-tags h3{
+    margin-top: 5rem;
+    margin-left: 10rem;
+    font-family: "africa";
+    src: url("../fonts/Africa.ttf") format("truetype");
+    font-size: 20px;
+}
+
+.h3-tags h3 a{
+text-decoration: none;
+color: black;
+}
+
+.h3tags{
+    margin-top: 5rem;
+    margin-left: 15rem;
+    font-family: "africa";
+    src: url("../fonts/Africa.ttf") format("truetype");
+    font-size: 20px;
+}
+
+.h3tags a{
+    text-decoration: none;  
+    color: black;
+    margin-left: 8rem;
+}
+
+/* about images */
+.about-photos{
+    position: relative;
+    display: grid;
+    object-fit: cover;
+}
+    
+
+.about-photos img{
+    width: 200px;
+    height: 200px;
+}
+
+.dian-fossey{
+    z-index: 2;
+    }
+
+.nelson-mendala{
+    object-fit: cover;
+    margin-left: 10rem;
+    margin-top: -10rem;
+    z-index: 3;
+}
+
+.lagos{
+    margin-left: 3rem;
+    margin-top: -8rem;
+    z-index: 4;
+}
+
+img:hover{
+    z-index: 5;
+}
+
+/* attractions photos */
+
+.attractions-photos{
+    position: relative;
+    display: grid;
+    object-fit: cover;
+    margin-left: 1rem;
+}
+
+.attractions-photos img{
+    width: 200px;
+    height: 200px;
+}
+
+.lemurs{
+    z-index: 2;
+    }
+
+.kilimanjaro{
+    object-fit: cover;
+    margin-left: 10rem;
+    margin-top: -10rem;
+    z-index: 3;
+}
+
+.elephants{
+    margin-left: 3rem;
+    margin-top: -8rem;
+    z-index: 4;
+}
+
+img:hover{
+    z-index: 5;
+}
+
+/* culture photos */
+
+.culture-photos{
+    position: relative;
+    display: grid;
+    object-fit: cover;
+    margin-left: 1rem;
+}
+
+.culture-photos img{
+    width: 200px;
+    height: 200px;
+}
+
+.cuisine{
+    z-index: 2;
+    }
+
+.languages{
+    object-fit: cover;
+    margin-left: 10rem;
+    margin-top: -10rem;
+    z-index: 3;
+}
+
+.tribes{
+    margin-left: 3rem;
+    margin-top: -8rem;
+    z-index: 4;
+}
+
+img:hover{
+    z-index: 5;
+}
 
 /* footer style */
-
 /* general page style */
 
 /* about page style */
