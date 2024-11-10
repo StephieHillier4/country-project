@@ -1,5 +1,12 @@
 
 /* header style */
+
+html{
+    height: 100%;
+}
+body{
+    padding-bottom: 100px;
+}
 .nav-menu{
     position: fixed;
     background-color: rgb(235, 151, 67);
@@ -86,34 +93,50 @@ h1{
     margin: 0 3rem;
     padding-bottom: 2rem;
     line-height: 1.5;
-   
+    font-weight: 900;
 }
-    
+
+.h3-tags{
+    background-color: rgb(235, 151, 67);
+    padding-bottom: 1rem;
+    margin-right: 15rem;
+    letter-spacing: 0.5rem;
+    margin-left: 1rem;
+}
+
 .h3-tags h3{
     margin-top: 5rem;
     margin-left: 10rem;
     font-family: "africa";
     src: url("../fonts/Africa.ttf") format("truetype");
     font-size: 20px;
+    padding-top: 1rem;
 }
 
 .h3-tags h3 a{
 text-decoration: none;
 color: black;
+margin: 0 auto;
 }
 
 .h3tags{
     margin-top: 5rem;
     margin-left: 15rem;
+    margin-right: 1rem;
     font-family: "africa";
     src: url("../fonts/Africa.ttf") format("truetype");
     font-size: 20px;
+    background-color: rgb(235, 151, 67);
+    padding-bottom: 1rem;
+    padding-top: 0.05rem;
+    letter-spacing: 0.5rem;
 }
 
 .h3tags a{
     text-decoration: none;  
     color: black;
-    margin-left: 8rem;
+    margin-left: 6rem;
+    
 }
 
 /* about images */
@@ -221,8 +244,24 @@ img:hover{
 }
 
 /* footer style */
-/* general page style */
 
-/* about page style */
+.footnotes{
+    position: fixed;
+    display: flex;
+    margin-top: 10rem;
+    bottom: 0;
+    left: 0;
+    justify-content: space-between;
+    background-color: rgb(235, 151, 67);
+    width: 100%;
+    padding: ;
+    z-index: 1000;
+    
+}
+
+.footnotes a{
+    color: black;
+}
+
 
 
