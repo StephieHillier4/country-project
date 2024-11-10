@@ -1,0 +1,58 @@
+html{
+    height: 100%;
+}
+body{
+    padding-bottom: 100px;
+}
+.nav-menu{
+    position: fixed;
+    background-color: rgb(235, 151, 67);
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    z-index: 1000;  
+    padding: 0 20px;
+}
+
+
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: black;
+    font-weight: 600;
+    
+}
+
+.nav-menu img{
+    width: 80px;
+    height: 90px;
+}
+/* main styles */
+@font-face{
+    font-family: "africa";
+    src: url("../fonts/Africa.ttf") format("truetype");
+    
+}
+
+.site-header img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+

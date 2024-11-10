@@ -154,6 +154,7 @@ margin: 0 auto;
 }
 
 .dian-fossey{
+    object-fit: cover;
     z-index: 2;
     margin-left: 1rem;
     box-shadow: 20px 20px 20px;
@@ -168,6 +169,7 @@ margin: 0 auto;
 }
 
 .lagos{
+    object-fit: cover;
     margin-left: 3rem;
     margin-top: -8rem;
     z-index: 4;
@@ -193,6 +195,7 @@ img:hover{
 }
 
 .lemurs{
+    object-fit: cover;
     z-index: 2;
     box-shadow: 20px 20px 20px;
     }
@@ -206,6 +209,7 @@ img:hover{
 }
 
 .elephants{
+    object-fit: cover;
     margin-left: 3rem;
     margin-top: -8rem;
     z-index: 4;
@@ -231,6 +235,7 @@ img:hover{
 }
 
 .cuisine{
+    object-fit: cover;
     z-index: 2;
     box-shadow: 20px 20px 20px;
     }
@@ -244,6 +249,7 @@ img:hover{
 }
 
 .tribes{
+    object-fit: cover;
     margin-left: 3rem;
     margin-top: -8rem;
     z-index: 4;
