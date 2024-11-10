@@ -94,6 +94,7 @@ h1{
     padding-bottom: 2rem;
     line-height: 1.5;
     font-weight: 900;
+    font-size: 1.2rem;
 }
 
 .h3-tags{
@@ -154,6 +155,8 @@ margin: 0 auto;
 
 .dian-fossey{
     z-index: 2;
+    margin-left: 1rem;
+    box-shadow: 20px 20px 20px;
     }
 
 .nelson-mendala{
@@ -161,12 +164,14 @@ margin: 0 auto;
     margin-left: 10rem;
     margin-top: -10rem;
     z-index: 3;
+    box-shadow: 20px 20px 20px;
 }
 
 .lagos{
     margin-left: 3rem;
     margin-top: -8rem;
     z-index: 4;
+    box-shadow: 20px 20px 20px;
 }
 
 img:hover{
@@ -189,6 +194,7 @@ img:hover{
 
 .lemurs{
     z-index: 2;
+    box-shadow: 20px 20px 20px;
     }
 
 .kilimanjaro{
@@ -196,12 +202,14 @@ img:hover{
     margin-left: 10rem;
     margin-top: -10rem;
     z-index: 3;
+    box-shadow: 20px 20px 20px;
 }
 
 .elephants{
     margin-left: 3rem;
     margin-top: -8rem;
     z-index: 4;
+    box-shadow: 20px 20px 20px;
 }
 
 img:hover{
@@ -224,6 +232,7 @@ img:hover{
 
 .cuisine{
     z-index: 2;
+    box-shadow: 20px 20px 20px;
     }
 
 .languages{
@@ -231,12 +240,14 @@ img:hover{
     margin-left: 10rem;
     margin-top: -10rem;
     z-index: 3;
+    box-shadow: 20px 20px 20px;
 }
 
 .tribes{
     margin-left: 3rem;
     margin-top: -8rem;
     z-index: 4;
+    box-shadow: 20px 20px 20px;
 }
 
 img:hover{
@@ -254,7 +265,7 @@ img:hover{
     justify-content: space-between;
     background-color: rgb(235, 151, 67);
     width: 100%;
-    padding: ;
+    padding: 0 1rem 0;
     z-index: 1000;
     
 }

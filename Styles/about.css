@@ -8,7 +8,7 @@ body{
 }
 .nav-menu{
     position: fixed;
-    background-color: rgb(235, 151, 67);
+    background-color: rgb(7, 139, 172);
     top: 0;
     left: 0;
     width: 100%;
@@ -56,5 +56,40 @@ h1{
     letter-spacing: 10px;
     padding-top: 5rem;
     
+}
+
+.p-one{
+    background-color: rgb(168, 69, 69);
+    line-height: 1.5;
+    font-weight: 900;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: ;
+}
+
+.p-two{
+    background-color: rgb(168, 69, 69);
+    line-height: 1.5;
+    font-weight: 900;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/* footer styles */
+
+.footnotes{
+    position: fixed;
+    display: flex;
+    margin-top: 10rem;
+    bottom: 0;
+    left: 0;
+    justify-content: space-between;
+    background-color: rgb(7, 139, 172);
+    width: 100%;
+    padding: 0 1rem 0;
+    z-index: 1000;
     
+}
+
+.footnotes a{
+    color: black;
 }
