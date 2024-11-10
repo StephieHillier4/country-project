@@ -81,9 +81,12 @@ h1{
     font-weight: 900;
     padding-left: 1rem;
     padding-right: 1rem;
-
-
+    
 }
+    
+    blockquote{
+        font-weight: 900;
+    }
 /* footer styles */
 
 .footnotes{
@@ -100,9 +103,6 @@ h1{
     
 }
 
-blockquote{
-    font-weight: 900;
-}
 
 .footnotes a{
     color: black;
