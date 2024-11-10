@@ -64,15 +64,25 @@ h1{
     font-weight: 900;
     padding-left: 1rem;
     padding-right: 1rem;
-    font-size: ;
+    font-size: 1.1rem;
 }
 
 .p-two{
-    background-color: rgb(168, 69, 69);
+    background-color: rgb(118, 184, 177);
     line-height: 1.5;
     font-weight: 900;
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+.p-three{
+    background-color: rgb(213, 151, 51);
+    line-height: 1.5;
+    font-weight: 900;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+
 }
 /* footer styles */
 
@@ -88,6 +98,10 @@ h1{
     padding: 0 1rem 0;
     z-index: 1000;
     
+}
+
+blockquote{
+    font-weight: 900;
 }
 
 .footnotes a{
