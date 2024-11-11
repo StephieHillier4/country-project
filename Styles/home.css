@@ -1,11 +1,11 @@
 
 /* header style */
 
-html{
+html, body{
     height: 100%;
-}
-body{
-    padding-bottom: 100px;
+    padding: 0;
+    margin: 0;
+
 }
 .nav-menu{
     position: fixed;
@@ -13,36 +13,45 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    margin: 0;
-    box-sizing: border-box;
-    z-index: 1000;  
-    padding: 0 20px;
+    z-index: 1000;
 }
-
 
 .nav-menu ul{
     list-style: none;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 0;
     margin: 0;
-    
+    justify-content: center;
     
 }
 
-.nav-menu li a{
+.nav-menu li{
+    margin: 0 15px;
+}
+
+.nav-menu a{
     text-decoration: none;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     color: black;
     font-weight: 600;
+    padding: 8px 16px;
+    text-align: center;
     
+}
+
+.nav-menu a:hover{
+    background-color: bisque;
 }
 
 .nav-menu img{
     width: 80px;
     height: 90px;
 }
+
+.nav-menu a:hover{
+    background-color: burlywood;
+}
+
 /* main styles */
 @font-face{
     font-family: "africa";
@@ -53,9 +62,9 @@ body{
 h1{
     font-family: "africa";
     font-weight: 400;
-    padding-left: 20rem;
+    padding-left: 15rem;
     padding-right: 0;
-    letter-spacing: 10px;
+    letter-spacing: 2px;
     padding-top: 5rem;
     margin-left: 0;
     margin-right: 0;
@@ -118,7 +127,6 @@ h1{
 }
 
 .h3-tags h3 a{
-text-decoration: none;
 color: black;
 margin: 0 auto;
 }
@@ -137,7 +145,6 @@ margin: 0 auto;
 }
 
 .h3tags a{
-    text-decoration: none;  
     color: black;
     margin-left: 6rem;
     
