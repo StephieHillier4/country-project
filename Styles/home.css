@@ -1,45 +1,43 @@
 
 /* header style */
 
+
 .nav-menu{
     position: fixed;
     background-color: rgb(235, 151, 67);
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
+    margin: 0;
+    box-sizing: border-box;
+    z-index: 1000;  
+    padding:  10px;
 }
+
 
 .nav-menu ul{
     list-style: none;
     display: flex;
-    padding: 0;
+    align-items: center;
+    padding-right: 3.5rem;
+    padding-left: 0;
     margin: 0;
-    justify-content: center;
+    justify-content: space-between;
     
 }
 
-.nav-menu li{
-    margin: 0 15px;
-}
-
-.nav-menu a{
+.nav-menu li a{
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: black;
     font-weight: 600;
-    padding: 8px 16px;
-    text-align: center;
     
-}
-
-.nav-menu a:hover{
-    background-color: bisque;
 }
 
 .nav-menu img{
-    width: 80px;
-    height: 90px;
+    width: 50px;
+    height: 60px;
+    object-fit: cover;
 }
 
 .nav-menu a:hover{
@@ -47,6 +45,8 @@
 }
 
 /* main styles */
+
+
 @font-face{
     font-family: "africa";
     src: url("../fonts/Africa.ttf") format("truetype");
@@ -56,14 +56,9 @@
 h1{
     font-family: "africa";
     font-weight: 400;
-    padding-left: 15rem;
-    padding-right: 0;
-    letter-spacing: 2px;
+    letter-spacing: 7px;
     padding-top: 5rem;
-    margin-left: 0;
-    margin-right: 0;
-    
-    
+    text-align: center;
 }
 
 .img-main{
@@ -76,32 +71,40 @@ h1{
     background-color: rgb(235, 151, 67);
     width: 100%;
     margin-top: 4rem;
-    
+    margin-left: 4rem;
 }
+
+.main-one h2{
+    font-family: "africa";
+    font-weight: 400;
+    padding-left: 11rem;
+    padding-top: 1.5rem;
+    margin-right: 2rem;
+
+}
+
+.main-one p{
+    margin: 0 5rem 0 3rem;
+    padding-bottom: 2rem;
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
 .video{
     width: 100%;
-    margin: 0;
+    margin-left: 5rem;
     padding-left: 0;
     padding-right: 0;
     padding-top: 4rem;
 
 }
 
-.main-one h2{
-    font-family: "africa";
-    font-weight: 400;
-    padding-left: 13rem;
-    padding-top: 1.5rem;
-
+figcaption{
+    padding-left: 4rem;
 }
 
-.main-one p{
-    margin: 0 3rem;
-    padding-bottom: 2rem;
-    line-height: 1.5;
-    font-weight: 900;
-    font-size: 1.2rem;
-}
 
 .h3-tags{
     background-color: rgb(235, 151, 67);
@@ -127,7 +130,7 @@ margin: 0 auto;
 
 .h3tags{
     margin-top: 5rem;
-    margin-left: 15rem;
+    margin-left: 1rem;
     margin-right: 1rem;
     font-family: "africa";
     src: url("../fonts/Africa.ttf") format("truetype");
@@ -140,7 +143,7 @@ margin: 0 auto;
 
 .h3tags a{
     color: black;
-    margin-left: 6rem;
+    margin-left: 10rem;
     
 }
 
@@ -149,6 +152,7 @@ margin: 0 auto;
     position: relative;
     display: grid;
     object-fit: cover;
+    margin-left: 6rem;
 }
     
 
@@ -190,12 +194,14 @@ img:hover{
     position: relative;
     display: grid;
     object-fit: cover;
-    margin-left: 1rem;
+    margin-left: 5rem;
+    
 }
 
 .attractions-photos img{
     width: 200px;
     height: 200px;
+    
 }
 
 .iguana{
@@ -271,17 +277,19 @@ img:hover{
     display: flex;
     margin-top: 10rem;
     bottom: 0;
-    left: 0;
-    justify-content: space-between;
-    background-color: rgb(235, 151, 67);
+    left: 0; 
     width: 100%;
     padding: 0 1rem 0;
     z-index: 1000;
+    gap: 5.5rem;
+    background-color: rgb(235, 151, 67);
     
 }
 
 .footnotes a{
+    font-size: 1rem;
     color: black;
+    font-weight: 600;
 }
 
 

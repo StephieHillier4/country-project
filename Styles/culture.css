@@ -67,9 +67,9 @@ h2{
     text-align: center;
   }
 
-  .grid{
+
     
-  }
+
 
   .culture{
     width: 100%;
@@ -81,7 +81,7 @@ h2{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: 200px;
     height: 200px;
     object-fit: cover;
 
