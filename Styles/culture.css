@@ -76,7 +76,7 @@ h1{
     padding-left: 15rem;
     padding-right: 0;
     letter-spacing: 10px;
-    padding-top: 5rem;
+    padding-top: 2rem;
     margin-left: 0;
     margin-right: 0;
     
@@ -89,7 +89,7 @@ h2{
     text-align: center;
   }
 
-
+/* culture */
  .culture{
     width: 100%;
     height: 20%;
@@ -103,10 +103,48 @@ h2{
     width: 200px;
     height: 200px;
     object-fit: cover;
+}
 
- 
+.tribal-man{
+    object-fit: cover;
+    width: 250px;
+    height: 350px;
+}
 
-  }
+.african-hut{
+    object-fit: cover;
+    width: 250px;
+    height: 350px;
+}
+
+/* languages */
+.script{
+    object-fit: cover;
+    width: 350px;
+    height: 500px;
+
+}
+
+.cave-writing{
+    object-fit: cover;
+    width: 350px;
+    height: 500px;
+}
+
+
+/* music, dance and food */
+.african-food{
+    object-fit: cover;
+    width: 250px;
+    height: 350px;
+
+}
+
+.music-dance{
+    object-fit: cover;
+    width: 250px;
+    height: 350px;
+}
 
 /* footer style */
 

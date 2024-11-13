@@ -124,12 +124,7 @@ h1{
 
 }
 
-figcaption{
-    padding-left: 4rem;
-}
-
-
-.h3-tags{
+.about-tags{
     background-color: rgb(235, 151, 67);
     padding-bottom: 1rem;
     margin-right: 15rem;
@@ -137,7 +132,7 @@ figcaption{
     margin-left: 1rem;
 }
 
-.h3-tags h3{
+.about-tags h3{
     margin-top: 5rem;
     margin-left: 10rem;
     font-family: "africa";
@@ -146,12 +141,12 @@ figcaption{
     padding-top: 1rem;
 }
 
-.h3-tags h3 a{
+.about-tags h3 a{
 color: black;
 margin: 0 auto;
 }
 
-.h3tags{
+.attractions-tags{
     margin-top: 5rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -164,17 +159,38 @@ margin: 0 auto;
     letter-spacing: 0.5rem;
 }
 
-.h3tags a{
+.attractions-tags a{
     color: black;
     margin-left: 10rem;
     
+}
+
+.culture-tags{
+    background-color: rgb(235, 151, 67);
+    padding-bottom: 1rem;
+    margin-right: 15rem;
+    letter-spacing: 0.5rem;
+    margin-left: 1rem;
+}
+
+.culture-tags h3{
+    margin-top: 5rem;
+    margin-left: 10rem;
+    font-family: "africa";
+    src: url("../fonts/Africa.ttf") format("truetype");
+    font-size: 20px;
+    padding-top: 1rem;
+}
+
+.culture-tags h3 a{
+color: black;
+margin: 0 auto;
 }
 
 /* about images */
 .about-photos{
     position: relative;
     display: grid;
-    object-fit: cover;
     margin-left: 6rem;
 }
     
@@ -182,6 +198,7 @@ margin: 0 auto;
 .about-photos img{
     width: 200px;
     height: 200px;
+    object-fit: cover;
 }
 
 .dian-fossey{
@@ -216,37 +233,38 @@ img:hover{
 .attractions-photos{
     position: relative;
     display: grid;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
-    margin-left: 5rem;
-    
 }
 
 .attractions-photos img{
     width: 200px;
     height: 200px;
-    
-}
-
-.iguana{
     object-fit: cover;
+}
+.cameleon{
+    width: 200px;
+    height: 200px;
     z-index: 2;
     box-shadow: 20px 20px 20px;
     }
 
 .kilimanjaro{
-    object-fit: cover;
+    width: 200px;
+    height: 200px;
     margin-left: 10rem;
     margin-top: -10rem;
     z-index: 3;
     box-shadow: 20px 20px 20px;
 }
 
-.elephants{
-    object-fit: cover;
+.rhino{
     margin-left: 3rem;
     margin-top: -8rem;
     z-index: 4;
     box-shadow: 20px 20px 20px;
+
 }
 
 img:hover{
@@ -258,23 +276,21 @@ img:hover{
 .culture-photos{
     position: relative;
     display: grid;
-    object-fit: cover;
     margin-left: 1rem;
 }
 
 .culture-photos img{
     width: 200px;
     height: 200px;
+    object-fit: cover;
 }
 
 .cuisine{
-    object-fit: cover;
     z-index: 2;
     box-shadow: 20px 20px 20px;
     }
 
 .languages{
-    object-fit: cover;
     margin-left: 10rem;
     margin-top: -10rem;
     z-index: 3;
@@ -282,7 +298,6 @@ img:hover{
 }
 
 .tribes{
-    object-fit: cover;
     margin-left: 3rem;
     margin-top: -8rem;
     z-index: 4;

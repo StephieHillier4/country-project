@@ -104,6 +104,7 @@ h2{
     
 }
 
+/* cities */
 .capetown{
     width: 200px;
     height: 200px;
@@ -120,6 +121,7 @@ h2{
     box-shadow: 20px 10px 20px;
 }
 
+/* excursions */
 .lemurs{
     width: 200px;
     height: 200px;
@@ -131,10 +133,11 @@ h2{
 
 .safari{
     width: 350px;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
     flex-shrink: 0;
     box-shadow: 20px 10px 20px;
+    
 }
 
 .hotairballoon{
@@ -146,6 +149,7 @@ h2{
 
 }
 
+/* landscapes */
 .beach{
     width: 200px;
     height: 200px;
