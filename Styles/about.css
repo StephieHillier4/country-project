@@ -16,13 +16,14 @@
     object-fit: cover;
     opacity: 0.3;
 }
-
 body{
     padding-bottom: 90px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .nav-menu{
     position: fixed;
-    background-color: rgb(7, 139, 172);
+    background-color: rgb(134, 64, 157);
     top: 0;
     left: 0;
     width: 100%;
@@ -78,19 +79,27 @@ h1{
 
 .main-image{
     margin-top: -1rem;
+    object-fit: cover;
 }
 
 .p-one{
-    background-color: rgb(237, 118, 68);
+    background-color: rgb(218, 80, 45);
     line-height: 1.5;
     font-weight: 600;
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 1rem;
+}
+
+.desert{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 10px 20px 20px;
 }
 
 .p-two{
-    background-color: rgb(118, 184, 177);
+    background-color: rgb(35, 118, 33);
     line-height: 1.5;
     font-weight: 600;
     padding-left: 1rem;
@@ -98,14 +107,29 @@ h1{
     font-size: 1rem;
 }
 
+.gorilla{
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: -20px 0px 10px;
+}
+
 .p-three{
-    background-color: rgb(213, 151, 51);
+    background-color: rgb(65, 111, 248);
     line-height: 1.5;
     font-weight: 600;
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 1rem;
     
+}
+
+.sanctuary{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 10px 20px 20px;
+    object-position: right;
 }
     
     blockquote{
@@ -120,7 +144,7 @@ h1{
     bottom: 0;
     left: 0;
     justify-content: space-between;
-    background-color: rgb(7, 139, 172);
+    background-color: rgb(134, 64, 157);
     width: 100%;
     padding: 0 1rem 0;
     z-index: 1000;
