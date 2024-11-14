@@ -77,10 +77,12 @@ h2{
   }
 
 /* culture */
+
  .culture{
     width: 100%;
-    height: 250px;
+    height: 300px;
     object-fit: cover;
+    box-shadow: 20px 20px 20px;
  }
 
 .tribal-man{
@@ -88,6 +90,7 @@ h2{
     width: 200px;
     height: 250px;
     margin-left: 2rem;
+    box-shadow: 20px 20px 20px;
 }
 
 .african-hut{
@@ -95,6 +98,7 @@ h2{
     width: 250px;
     height: 300px;
     margin-left: 5rem;
+    box-shadow: 20px 20px 20px;
 }
 
 .grid p{
@@ -102,10 +106,12 @@ h2{
 }
 
 /* languages */
+
 .script{
     object-fit: cover;
     width: 150px;
     height: 200px;
+    box-shadow: 20px 20px 20px;
 
 }
 
@@ -114,16 +120,19 @@ h2{
     width: 150px;
     height: 250px;
     margin-left: 2rem;
+    box-shadow: 20px 20px 20px;
 }
 
 
 /* music, dance and food */
+
 .african-food{
     object-fit: cover;
     width: 300px;
     height: 250px;
     margin-top: .2rem;
     margin-left: 1rem;
+    box-shadow: 20px 20px 20px;
 
 }
 
@@ -133,10 +142,11 @@ h2{
     margin-right: 2rem;
     object-fit: cover;
     float: right;
+    box-shadow: 20px 20px 20px;
 }
 
 .grid p{
-   margin-right: .5rem;
+   margin-left: .5rem;
 }
 
 /* footer style */
