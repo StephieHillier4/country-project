@@ -11,6 +11,7 @@
     margin: 0;
     box-sizing: border-box;
     z-index: 1000;  
+    padding: .2rem 0;
 
 }
 
@@ -53,7 +54,7 @@
 }
 
 body{
-    padding-bottom: 100px;
+    padding-bottom: 20%;
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -111,26 +112,11 @@ h1{
 
 .about-photos img{
     width: 100%;
+    height: 300px;
     object-fit: cover;
-}
-
-.dian-fossey{
-    object-fit: cover;
-    z-index: 2;
-    box-shadow: 20px 20px 20px;
-    }
-
-.nelson-mendala{
-    object-fit: cover;
-    z-index: 3;
     box-shadow: 20px 20px 20px;
 }
 
-.lagos{
-    object-fit: cover;
-    z-index: 4;
-    box-shadow: 20px 20px 20px;
-}
 
 /* attractions photos */
 
@@ -151,20 +137,8 @@ h1{
 
 .attractions-photos img{
     width: 100%;
+    height: 300px;
     object-fit: cover;
-}
-.cameleon{
-    z-index: 2;
-    box-shadow: 20px 20px 20px;
-    }
-
-.kilimanjaro{
-    z-index: 3;
-    box-shadow: 20px 20px 20px;
-}
-
-.rhino{
-    z-index: 4;
     box-shadow: 20px 20px 20px;
 }
 
@@ -187,22 +161,14 @@ h1{
 
 .culture-photos img{
     width: 100%;
+    height: 300px;
     object-fit: cover;
-}
-
-.cuisine{
-    z-index: 2;
-    box-shadow: 20px 20px 20px;
-    }
-
-.languages{
-    z-index: 3;
     box-shadow: 20px 20px 20px;
 }
+
 
 .tribes{
-    z-index: 4;
-    box-shadow: 20px 20px 20px;
+    object-position: top;
 }
 
 /* footer style */
