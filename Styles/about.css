@@ -51,11 +51,7 @@
     
 }
 html, body{
-    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding-bottom: 20%;
-    
 }
 
 .image-container{
@@ -82,8 +78,14 @@ h1{
     font-family: "africa";
     font-weight: 400;
     text-align: center;
+   
 }
     
+main{
+    padding: 20px 0;
+}
+    
+
 
 .main-image{
     margin-top: -1rem;
@@ -96,7 +98,8 @@ h1{
     font-weight: 600;
     padding-left: 1rem;
     padding-right: 1rem;
-    font-size: 1rem;
+    font-size: .8rem;
+    margin-top: 2rem;
 }
 
 .desert{
@@ -104,6 +107,7 @@ h1{
     height: 250px;
     object-fit: cover;
     box-shadow: 10px 20px 20px;
+    margin-bottom: 3rem;
 }
 
 .p-two{
@@ -112,8 +116,9 @@ h1{
     font-weight: 600;
     padding-left: 1rem;
     padding-right: 1rem;
-    font-size: 1rem;
-    margin-top: 2rem;
+    font-size: .8rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
 }
 
 .gorilla{
@@ -129,7 +134,7 @@ h1{
     font-weight: 600;
     padding-left: 1rem;
     padding-right: 1rem;
-    font-size: 1rem;
+    font-size: .8rem;
     margin-top: 2rem;
     
 }
@@ -140,10 +145,12 @@ h1{
     object-fit: cover;
     box-shadow: 10px 20px 20px;
     object-position: right;
+    margin-bottom: 5rem;
 }
     
     blockquote{
-        font-weight: 200;
+        font-weight: 600;
+        font-size: .8rem;
     }
 /* footer styles */
 
