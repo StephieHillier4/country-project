@@ -1,0 +1,297 @@
+
+/* header style */
+
+
+.nav-menu{
+    position: fixed;
+    background-color: rgb(235, 151, 67);
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    z-index: 1000;  
+    padding: .2rem 0;
+
+}
+
+
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    margin: 0 auto;
+    justify-content: space-around;
+    max-width: 75rem;
+    
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    font-size: .8rem;
+    color: black;
+    font-weight: 600;
+    font-size: .8rem;
+    
+}
+
+.nav-menu img{
+    width: 20px;
+    height: 30px;
+    object-fit: cover;
+}
+@media (min-width:37.5em){
+
+.nav-menu{
+    padding: .5rem 0;
+}
+
+.nav-menu li a{
+    font-size: 1.2rem;
+}
+
+}
+/* main styles */
+
+@font-face{
+    font-family: "africa";
+    src: url("../fonts/Africa.ttf") format("truetype");
+    
+}
+
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+}
+
+.image-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+}
+
+.img-main h1{
+    font-family: "africa";
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0.2rem;
+    margin-top: 2.5rem;
+}
+
+@media (min-width:37.5rem){
+    
+.img-main h1{
+        margin-top: 3rem;
+        letter-spacing: 2rem;
+}
+}
+
+.img-main{
+    width: 100%;
+    margin-top: 2rem;
+    padding: 0;
+}
+
+.main-one{
+    background-color: rgb(235, 151, 67);
+    width: 100%;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.video{
+    object-fit: cover;
+    width: 100%;
+}
+
+.main-one h2{
+    font-family: "africa";
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.main-one p{
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+
+/* about images */
+
+.about-tags h3{
+    text-align: center;
+}
+
+.about-tags a{
+    color: black;
+    font-family: africa;
+}
+
+.about-photos{
+    position: relative;
+}
+
+@media (min-width:37.5rem){
+    .nelson-mendala{
+        object-position: top;
+    }
+}
+
+
+/* attractions photos */
+
+
+.attractions-tags h3{
+    text-align: center;
+}
+
+.attractions-tags a{
+    color: black;
+    font-family: africa;
+}
+
+
+.home-collage{
+    position: relative;
+    max-width: 59.37rem;
+    margin: 0 auto;
+}   
+
+.home-collage img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 20px 20px 20px;
+    max-width: 500px;
+    display: block;
+    margin: 2rem auto;
+}
+
+.tribes{
+    object-position: top;
+}
+
+@media (min-width: 56.25em){
+
+.img-main h1{
+    margin-top: 3rem;
+    letter-spacing: 2rem;
+}
+        
+
+.home-collage{
+    height: 35rem;
+}
+
+.home-collage img:hover{
+    z-index: 10;
+}
+
+.cameleon{
+   position: absolute;
+   right: 3rem; 
+}
+
+.kilimanjaro{
+    position: absolute;
+    top: 7rem;
+    left: 3rem;
+}
+
+.rhino{
+    position: absolute;
+    top: 15rem;
+    right: 6rem;
+}
+
+.dian-fossey, .cuisine{
+position: absolute;
+left: 3rem;
+}
+
+.nelson-mendala, .languages{
+    position: absolute;
+    top: 7rem;
+    right: 3rem;
+    object-position: top;
+}
+
+.lagos, .tribes{
+    position: absolute;
+    top: 15rem;
+    left: 6rem;
+}
+
+.tribes{
+    object-position: top;
+}
+
+}
+/* culture photos */
+
+.culture-tags{
+    margin-bottom: 5rem;
+}
+
+.culture-tags h3{
+    text-align: center;
+}
+
+.culture-tags a{
+    color: black;
+    font-family: africa;
+}
+
+.culture-photos{
+    position: relative;
+}
+
+
+/* footer style */
+
+.footnotes{
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    left: 0; 
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(235, 151, 67);
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.footnotes a{
+    font-size: .8rem;
+    color: black;
+    font-weight: 600;
+}
+
+.footnotes p{
+    margin: 0.5rem 0;
+}
+
+.footer-logo{
+  width: 2rem; 
+  object-fit: cover;
+}
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact Form</title>
+    <link rel="stylesheet" href="styles/normalize-fwd.css">
+    <link rel="stylesheet" href="styles/contactform.css">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+</head>
+<body class="contact-form">
+
+    <div class="image-container">
+        <img src="images/sanctuary.jpg" alt="Background Image">
+    </div>
+
+    <div class="site wrapper">
+        <header>
+        <nav class="nav-menu">
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+    
+                    <li><a href="about.html">About</a></li>
+    
+                    <li><img src="images/mapofafrica.png"></a></li>
+    
+                    <li><a href="attractions.html">Attractions</a></li>
+    
+                    <li><a href="culture.html">Culture</a></li>
+    
+                </ul>
+            </nav>
+        </nav>
+        </header>
+
+     <div class="form-container">
+        <h2>Contact Us</h2>
+        <form action="/submit" method="POST">
+
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" required placeholder="Enter your name">
+            </div>
+                
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Enter you email">
+             </div>  
+            
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4" required placeholder="Enter your message"></textarea>
+            </div>
+            
+            <div class="form-group">
+                <button type="submit">Submit</button>
+
+            </div>
+        </form>
+    </div>
+    <footer class="footnotes">
+        <img src="favicon-96x96.png" alt="logo" class="footer-logo">
+        <p><a href="credits.html">Credits</a></p>
+        <p><a href="contactform.html">Contact</a></p>
+        <p>&copy;2024</p>
+    </footer>
+</body>
+</html>
