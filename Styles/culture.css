@@ -39,16 +39,20 @@
     object-fit: cover;
 }
 
-
+@media (min-width:37.5em){
 .nav-menu img{
     width: 20px;
     height: 30px;
 }
 
-.nav-menu a:hover{
-    background-color: bisque;
+.nav-menu{
+    padding: .5rem 0;
 }
-/* main styles */
+    
+.nav-menu li a{
+font-size: 1.2rem;
+}
+}
 
 /* main styles */
 
@@ -97,6 +101,12 @@ h1{
     margin-right: 0;
     text-align: center;
     
+}
+
+@media (min-width:37.5em){
+    h1{
+        margin-top: 2rem;
+    }
 }
 
 h2{
@@ -211,3 +221,8 @@ h2{
 .footnotes p{
     margin: 0.5rem 0;
 }
+
+.footer-logo{
+    width: 2rem;  
+    object-fit: cover;
+  }

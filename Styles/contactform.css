@@ -143,10 +143,9 @@ button:hover{
 .footnotes{
     position: fixed;
     display: flex;
-    margin-top: 2rem;
     bottom: 0;
     left: 0;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: azure;
     width: 100%;
     padding: 0;
@@ -154,6 +153,16 @@ button:hover{
     
 }
 
+.footnotes p{
+    margin: 0.5rem 0;
+}
+
+
 .footnotes a{
     color: black;
 }
+
+.footer-logo{
+    width: 2rem;  
+    object-fit: cover;
+  }

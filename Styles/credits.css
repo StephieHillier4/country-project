@@ -107,28 +107,32 @@ th{
     font-weight: 200;
     padding: .5rem 0;
     
-    
 }
-
-
-
 /* footer styles */
 
 .footnotes{
     position: fixed;
     display: flex;
-    margin-top: 10rem;
     bottom: 0;
-    left: 0;
-    justify-content: space-between;
-    background-color: rgb(229, 160, 214);
+    left: 0; 
     width: 100%;
-    padding: .1rem .2rem;
     z-index: 1000;
+    background-color: rgb(229, 160, 214);
+    justify-content: space-around;
     
 }
 
-
 .footnotes a{
-    color: rgb(65, 63, 63);
+    font-size: .8rem;
+    color: black;
+    font-weight: 600;
 }
+
+.footnotes p{
+    margin: 0.5rem 0;
+}
+
+.footnotes .footer-logo{
+    width: 2rem;
+    object-fit: cover;
+ } 

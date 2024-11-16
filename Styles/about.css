@@ -40,10 +40,18 @@
     object-fit: cover;
 }
 
-.nav-menu a:hover{
-    background-color: rgb(239, 210, 239);
-}
+@media (min-width:37.5em){
 
+.nav-menu{
+     padding: .5rem 0;
+}
+    
+.nav-menu li a{
+    font-size: 1.2rem;
+}
+    
+
+}
 
 /* main styles */
 @font-face{
@@ -81,6 +89,12 @@ h1{
     text-align: center;
    
 }
+
+@media (min-width: 37.5em){
+.h1-tag{
+    margin-top: 2rem;
+}
+}    
     
 main{
     padding: 20px 0;
@@ -89,6 +103,7 @@ main{
 
 
 .main-image{
+    width: 100%;
     margin-top: -1rem;
     object-fit: cover;
 }
@@ -207,8 +222,8 @@ main{
     margin: 0.5rem 0;
 }
 
-/* media query */
+.footer-logo{
+    width: 2rem;  
+    object-fit: cover;
+  }
 
-@media (min-width: 50em){
-    
-}
