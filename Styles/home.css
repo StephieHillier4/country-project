@@ -21,17 +21,18 @@
     display: flex;
     align-items: center;
     padding-left: 0;
-    margin: 0;
+    margin: 0 auto;
     justify-content: space-around;
+    max-width: 75rem;
     
 }
 
 .nav-menu li a{
     text-decoration: none;
-    font-size: 1rem;
+    font-size: .8rem;
     color: black;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: .8rem;
     
 }
 
@@ -54,7 +55,6 @@
 }
 
 html, body{
-    /* height: 100%; */
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     
@@ -122,7 +122,7 @@ html, body{
 
 /* about images */
 
-.about-tags{
+.about-tags h3{
     text-align: center;
 }
 
@@ -133,14 +133,6 @@ html, body{
 
 .about-photos{
     position: relative;
-}
-    
-
-.about-photos img{
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    box-shadow: 20px 20px 20px;
 }
 
 
@@ -157,25 +149,71 @@ html, body{
 }
 
 
-.attractions-photos{
+.home-collage{
     position: relative;
+    max-width: 59.37rem;
+    margin: 0 auto;
 }   
 
-.attractions-photos img{
-    width: 150px;
-    height: 150px;
+.home-collage img{
+    width: 100%;
+    height: 250px;
     object-fit: cover;
     box-shadow: 20px 20px 20px;
+    max-width: 500px;
+    display: block;
+    margin: 2rem auto;
+}
+
+@media (min-width: 56.25em){
+.home-collage{
+    height: 35rem;
+}
+
+.home-collage img:hover{
+    z-index: 10;
 }
 
 .cameleon{
-    margin-left: 2rem;
+   position: absolute;
+   right: 3rem; 
+}
+
+.kilimanjaro{
+    position: absolute;
+    top: 7rem;
+    left: 3rem;
 }
 
 .rhino{
-    margin-left: 6rem;
+    position: absolute;
+    top: 15rem;
+    right: 6rem;
 }
 
+.dian-fossey, .cuisine{
+position: absolute;
+left: 3rem;
+}
+
+.nelson-mendala, .languages{
+    position: absolute;
+    top: 7rem;
+    right: 3rem;
+    object-position: top;
+}
+
+.lagos, .tribes{
+    position: absolute;
+    top: 15rem;
+    left: 6rem;
+}
+
+.tribes{
+    object-position: top;
+}
+
+}
 /* culture photos */
 
 .culture-tags{
@@ -195,22 +233,6 @@ html, body{
     position: relative;
 }
 
-.culture-photos img{
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    box-shadow: 20px 20px 20px;
-}
-
-.cuisine{
-    margin-left: 1rem;
-}
-
-.tribes{
-    object-position: top;
-    margin-left: 6rem;
-    
-}
 
 /* footer style */
 
@@ -228,12 +250,16 @@ html, body{
 }
 
 .footnotes a{
-    font-size: 1rem;
+    font-size: .8rem;
     color: black;
     font-weight: 600;
 }
 
 .footnotes p{
     margin: 0.5rem 0;
+}
+
+.footer-logo{
+  width: 2rem;  
 }
 

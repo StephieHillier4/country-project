@@ -18,7 +18,8 @@
     display: flex;
     align-items: center;
     padding-left: 0;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 75rem;
     justify-content: space-around;
     
 }
@@ -28,7 +29,7 @@
     font-size: 1rem;
     color: black;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: .8rem;
     
 }
 
@@ -116,29 +117,21 @@ h2{
 
 .tribal-man{
     object-fit: cover;
-    width: 200px;
     height: 250px;
-    margin-left: 2rem;
     box-shadow: 20px 20px 20px;
 }
 
 .african-hut{
     object-fit: cover;
-    width: 250px;
     height: 300px;
-    margin-left: 5rem;
     box-shadow: 20px 20px 20px;
 }
 
-.grid p{
-    margin-left: 1rem;
-}
 
 /* languages */
 
 .script{
     object-fit: cover;
-    width: 150px;
     height: 200px;
     box-shadow: 20px 20px 20px;
 
@@ -146,9 +139,7 @@ h2{
 
 .cave-writing{
     object-fit: cover;
-    width: 150px;
     height: 250px;
-    margin-left: 2rem;
     box-shadow: 20px 20px 20px;
 }
 
@@ -157,28 +148,43 @@ h2{
 
 .african-food{
     object-fit: cover;
-    width: 300px;
     height: 250px;
-    margin-top: .5rem;
-    margin-left: 1rem;
     box-shadow: 20px 20px 20px;
 
 }
 
 .music-dance{
-    width: 200px;
     height: 250px;
-    margin-right: 2rem;
     object-fit: cover;
-    float: right;
     box-shadow: 20px 20px 20px;
 }
 
 .grid p{
-   margin-left: .5rem;
-   margin-bottom: 2rem;
+    padding: 1rem 2rem;
 }
 
+.grid-items img{
+    width: 100%;
+}
+
+@media (min-width:50em){
+    .grid-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        max-width: 56.25rem;
+        margin: 5rem auto;
+    }
+
+    .grid-items p, .grid-items h2{
+        display: flex;
+        align-items: center;
+    }
+
+    .grid-items h2{
+        justify-content: center;
+    }
+}
 
 /* footer style */
 
@@ -197,7 +203,7 @@ h2{
 
 
 .footnotes a{
-    font-size: 1rem;
+    font-size: .8rem;
     color: black;
     font-weight: 600;
 }

@@ -17,17 +17,18 @@
     display: flex;
     align-items: center;
     padding-left: 0;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 75rem;
     justify-content: space-around;
     
 }
 
 .nav-menu li a{
     text-decoration: none;
-    font-size: 1rem;
+    font-size: .8rem;
     color: black;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: .8rem;
     
 }
 
@@ -83,7 +84,7 @@ body{
 }
 
 main{
-   padding: 20px 0; 
+   padding: 20px 0 30px; 
 }
 
 h1{
@@ -106,78 +107,130 @@ h2{
   text-align: center;
 }
 
+p{
+    font-weight: 300;
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+}
 
+.grid-container img{
+    width: 100%;
+
+}
 /* cities */
 .capetown{
-    width: 200px;
+    /* width: 200px; */
     height: 200px;
     object-fit: cover;
     box-shadow: 20px 10px 20px;
-    margin-left: 5rem;
 }
 
 .zanzibar{
-    width: 350px;
+    /* width: 300px; */
     height: 200px;
     object-fit: cover;
     box-shadow: 20px 10px 20px;
+    
 }
 
-.grid-items-one p{
-    margin-left: 1rem;
-}
+
 /* excursions */
 .lemurs{
-    width: 200px;
+    /* width: 200px; */
     height: 200px;
     object-fit: cover;
     box-shadow: -20px 0px 20px;
-    margin-left: 5rem;
+    
     
 }
 
 .safari{
-    width: 300px;
+    /* width: 300px; */
     height: 200px;
     object-fit: cover;
     box-shadow: 20px 10px 20px;
-    margin-left: 2rem;
+    
     
 }
 
 .hotairballoon{
-    width: 200px;
+    /* width: 200px; */
     height: 300px;
     object-fit: cover;
     box-shadow: 20px 10px 20px;
     object-position: left;
-    margin-left: 5rem;
+    
     
 }
 
-.grid-items-two p{
-    margin-left: 1rem;
-}
 
 /* landscapes */
 .beach{
-    width: 200px;
+    /* width: 200px; */
     height: 200px;
     object-fit: cover;
     box-shadow: -20px 0px 20px;
-    margin-left: 5rem;
+   
 }
 
 .waterfall{
-    width: 300px;
+    /* width: 300px; */
     height: 150px;
     object-fit: cover;
     box-shadow: 20px 10px 20px;
-    margin-left: 2rem;
 }
 
-.grid-items-three p{
-    margin-left: 1rem;
+
+@media (min-width:31.25em){
+.waterfall{
+    height: 300px;
+}
+}
+
+@media (min-width:37.5em){
+    .safari{
+        height: 400px;
+    }
+}
+ 
+.grid-container .grid-items:last-child{
+    margin-bottom: 5rem;
+}
+
+@media (min-width:50em){
+    .grid-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        max-width: 56.25rem;
+        margin: 5rem auto;
+    }
+
+    .grid-items img{
+        height: 100%;
+    }
+
+    .grid-items p, .grid-items h2{
+        display: flex;
+        align-items: center;
+    }
+
+    .grid-items h2{
+        justify-content: center;
+    }
+
+    .waterfall{
+        height: 400px;
+    }
+
+    .lemurs{
+        grid-column: 1 / 3;
+    }
+
+    .hotairballoon{
+        grid-column: 2;
+        grid-row: 1;
+    }
 }
 
 /* footer style */
@@ -195,7 +248,7 @@ h2{
 }
 
 .footnotes a{
-    font-size: 1rem;
+    font-size: .8rem;
     color: black;
     font-weight: 600;
 }
@@ -203,11 +256,3 @@ h2{
 .footnotes p{
     margin: 0.5rem 0;
 }
-/* .grid-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, min-max(200, 1fr));
-    grid-template-rows: repeat(auto-fill, min-max(200, 1fr));
-    gap: 10px;
-    margin: 0 auto;
-    
-} */

@@ -19,17 +19,18 @@
     display: flex;
     align-items: center;
     padding-left: 0;
-    margin: 0;
+    margin: 0 auto;
     justify-content: space-around;
+    max-width: 75rem;
     
 }
 
 .nav-menu li a{
     text-decoration: none;
-    font-size: 1rem;
+    font-size: .8rem;
     color: black;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: .8rem;
     
 }
 
@@ -92,6 +93,35 @@ main{
     object-fit: cover;
 }
 
+@media (min-width: 37.5em){
+.about-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 56.25rem;
+    margin: 5rem auto;
+}
+
+.grid-reverse img{
+    grid-column: 2;
+}
+
+.about-grid img{
+    grid-row: 1 / 3;
+    width: 100%;
+    height: 100%;
+}
+
+.about-grid p, .about-grid blockquote{
+    display: flex;
+    align-items: center;
+}
+
+.about-grid blockquote{
+    
+}
+
+}
 .p-one{
     background-color: rgb(218, 80, 45);
     line-height: 1.5;
@@ -151,7 +181,8 @@ main{
     blockquote{
         font-weight: 600;
         font-size: .8rem;
-    }
+}
+
 /* footer styles */
 
 .footnotes{
@@ -167,11 +198,17 @@ main{
 }
 
 .footnotes a{
-    font-size: 1rem;
+    font-size: .8rem;
     color: black;
     font-weight: 600;
 }
 
 .footnotes p{
     margin: 0.5rem 0;
+}
+
+/* media query */
+
+@media (min-width: 50em){
+    
 }
